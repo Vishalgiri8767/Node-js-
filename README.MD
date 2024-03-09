@@ -30,5 +30,3 @@ Postman can be used for testing API endpoints.
 ## Contributing
 Contributions are welcome!
 
-## License
-This project is licensed under the MIT License.
