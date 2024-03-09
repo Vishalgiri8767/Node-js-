@@ -11,7 +11,10 @@ This README provides an overview of a Todo application built with Node.js, Expre
 Postman can be used for testing API endpoints.
 
 ## Features
-- Users can perform CRUD operations on todo tasks.
+- **CRUD Operations**: Users can perform Create, Read, Update, and Delete operations on todo tasks.
+- **Flexible Storage**: MongoDB provides a flexible schema design, allowing for easy storage and retrieval of todo tasks.
+- **RESTful API**: The application follows RESTful principles, providing a clear and predictable API interface.
+
 
 ## Installation
 1. Clone the repository.
