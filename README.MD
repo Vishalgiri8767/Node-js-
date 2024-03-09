@@ -2,7 +2,10 @@
 
 This README provides an overview of a Todo application built with Node.js, Express.js, and MongoDB.
 
-
+## Technologies Used
+- **Node.js**: A JavaScript runtime environment used for server-side development.
+- **Express.js**: A web application framework for Node.js used to build APIs and web applications.
+- **MongoDB**: A NoSQL database used for storing todo tasks.
 
 ## Testing
 Postman can be used for testing API endpoints.
