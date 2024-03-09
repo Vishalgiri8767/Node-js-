@@ -2,10 +2,7 @@
 
 This README provides an overview of a Todo application built with Node.js, Express.js, and MongoDB.
 
-## Technologies Used
-- Node.js
-- Express.js
-- MongoDB (NoSQL database)
+
 
 ## Testing
 Postman can be used for testing API endpoints.
