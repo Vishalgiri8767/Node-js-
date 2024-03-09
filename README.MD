@@ -27,6 +27,4 @@ Postman can be used for testing API endpoints.
 - PUT /todos/:id: Update a todo task by ID.
 - DELETE /todos/:id: Delete a todo task by ID.
 
-## Contributing
-Contributions are welcome!
 
