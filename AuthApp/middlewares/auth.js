@@ -47,7 +47,7 @@ exports.isStudent = (req, res, next) => {
   } catch (error) {
     res.status(401).json({
       success: false,
-      message: "user role not matching",
+      message: "user role ",
     });
   }
   
