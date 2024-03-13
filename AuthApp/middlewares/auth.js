@@ -55,7 +55,7 @@ exports.isStudent = (req, res, next) => {
 };
 exports.isStudent = (req, res, next) => {
   try {
-    console.log(req.user.role);
+ //   console.log(req.user.role);
     if (req.user.role !== "student") {
       return res.status(401).json({
         success: false,
@@ -92,7 +92,7 @@ exports.isStudent = (req, res, next) => {
 
 exports.isAdmin = (req, res, next) => {
     try {
-      console.log(req.user.role);
+    //  console.log(req.user.role);
       if (req.user.role !== "admin") {
         return res.status(401).json({
           success: false,
