@@ -12,6 +12,13 @@ require('./config/database').connect();
 const user = require("./routes/user");
 app.use("/api/v1", user);
 
+const login = require("./routes/login");
+app.use("/api/v1", login);
+
+app.use("/",(req,res)=>{
+    res.send("Hello this is homepage");
+})
+
 // activate
 app.listen(PORT,()=>{
     console.log(`App is listening at ${PORT}`);
