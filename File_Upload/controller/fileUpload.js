@@ -18,7 +18,7 @@ try {
     });
 
 } catch (error) {
-    console.log(error);
+    console.log('Not able to upload file on server');
     console.error(error);
 }
 }
