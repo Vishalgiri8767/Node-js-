@@ -4,9 +4,9 @@ exports.localFileUpload = (req,res)=>{
 try {
 
     const file = req.files.file;
-    console.log("File AA Gayee =>"+ file);
+    console.log("File AA Gayee =>", file);
     
-    let path = __dirname + /files/ + Date.now();
+    let path = __dirname + /files/ + Date.now() + `{file.name.split('.')[1]}`;
     console.log("Path =>" + path);
 
     file.mv(path, (err) =>{
