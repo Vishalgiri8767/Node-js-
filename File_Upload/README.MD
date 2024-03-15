@@ -55,3 +55,21 @@ Copy code
 
 - npm start
 
+6. **Access the API:**
+
+   You can now access the API endpoints using Postman or any other API client.
+
+## API Endpoints
+
+- **POST /upload**: Upload a file.
+- **GET /files**: Get all uploaded files.
+- **GET /files/:id**: Get a specific file by ID.
+- **DELETE /files/:id**: Delete a file by ID.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for bug fixes, feature requests, or suggestions.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
