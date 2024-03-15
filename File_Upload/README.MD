@@ -39,3 +39,14 @@ Copy code
 
 
 - Copy this section as well, and let me know when you're ready for the next part.
+
+4. **Set up environment variables:**
+   
+   Create a `.env` file in the root directory and add the following:
+
+   ```plaintext
+   PORT=3000
+   MONGODB_URI=your-mongodb-connection-string
+   CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
+   CLOUDINARY_API_KEY=your-cloudinary-api-key
+   CLOUDINARY_API_SECRET=your-cloudinary-api-secret
