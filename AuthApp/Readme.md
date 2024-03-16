@@ -3,7 +3,6 @@
 This is a Node.js authentication app with MongoDB as the backend. It provides basic authentication features like user registration, login, and logout.
 
 ## Features
-
 - User registration with email and password
 - User login with email and password
 - Password hashing for security
