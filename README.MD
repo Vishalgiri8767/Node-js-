@@ -8,7 +8,6 @@ Welcome to the MERN stack backend repository! This repository houses the server-
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
 
 
 ## Prerequisites
